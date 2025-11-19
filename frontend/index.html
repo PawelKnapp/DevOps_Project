@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Moja Lista TODO</h1>
+        
+        <div class="input-section">
+            <input 
+                type="text" 
+                id="todoInput" 
+                placeholder="Dodaj nowe zadanie..." 
+                autocomplete="off"
+            >
+            <button id="addBtn">Dodaj</button>
+        </div>
+
+        <div id="todoList" class="todo-list">
+            <!-- Todos will be loaded here -->
+        </div>
+
+        <div class="stats">
+            <span id="totalCount">Wszystkich: 0</span>
+            <span id="completedCount">Ukończonych: 0</span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
