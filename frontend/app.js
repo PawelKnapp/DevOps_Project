@@ -1,4 +1,4 @@
-const API_URL = '/api/todos';
+const API_URL = '__API_URL__';
 
 let todos = [];
 
